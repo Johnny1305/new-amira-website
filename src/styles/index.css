@@ -41,3 +41,15 @@ svg, img {
   user-select: none; /* Evita que la imagen sea seleccionable */
   pointer-events: none;
 }
+
+body {
+  cursor: url("/images/cursor.png"), auto !important;
+}
+
+:where(a, button, .select, .select, Link > *, input, .option, Link, .subidaparriba):hover {
+  cursor: url("/images/pointer.png"), auto !important;
+}
+
+:where(a, button, .select, .select > *, input, .option, .subidaparriba):disabled {
+  cursor: url("/images/notallowed.png"), auto !important;
+}
