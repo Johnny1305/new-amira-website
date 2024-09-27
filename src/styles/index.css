@@ -31,3 +31,13 @@
     @apply opacity-100;
   }
 }
+
+::selection {
+  background-color: #f472b6; /* Color de fondo de la selección */
+  color: #ffffff; /* Color del texto seleccionado */
+}
+
+svg, img {
+  user-select: none; /* Evita que la imagen sea seleccionable */
+  pointer-events: none;
+}
