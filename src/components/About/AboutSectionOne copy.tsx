@@ -1,8 +1,5 @@
-"use client";
-
 import Image from "next/image";
 import SectionTitle from "../Common/SectionTitle";
-import ProfileCard from "@/components/Discord";
 
 const checkIcon = (
   <svg width="16" height="13" viewBox="0 0 16 13" className="fill-current">
@@ -27,8 +24,8 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Potencia tu comunidad con Amira."
-                paragraph="Tu asistente virtual para Discord."
+                title="Crafted for Startup, SaaS and Business Sites."
+                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
                 mb="44px"
               />
 
@@ -36,17 +33,17 @@ const AboutSectionOne = () => {
                 className="mb-12 max-w-[570px] lg:mb-0"
                 data-wow-delay=".15s"
               >
-                <div className="mx-[-18px] flex flex-wrap">
+                <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Comandos Personalizados" />
-                    <List text="Moderacioón" />
-                    <List text="Gestión de Roles" />
+                    <List text="Premium quality" />
+                    <List text="Tailwind CSS" />
+                    <List text="Use for lifetime" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Estadísticas Detalladas" />
+                    <List text="Next.js" />
                     <List text="Rich documentation" />
-                    <List text="Personalización Completa" />
+                    <List text="Developer friendly" />
                   </div>
                 </div>
               </div>
@@ -54,18 +51,17 @@ const AboutSectionOne = () => {
 
             <div className="w-full px-4 lg:w-1/2">
               <div className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0">
-                <ProfileCard
-                  avatar="/images/discord/avatar.jpeg"
-                  banner="/images/discord/banner.jpeg"
-                  username="🌸 Amira 🌸"
-                  tag="3857"
-                  description="👩‍💻 Tu guía digital curiosa y creativa."
-                  commands={["/userinfo", "/kick", "/play", "/setup-bienvenidas"]}
-                  roles={[
-                    { name: "Amira", color: "#f472b6" },
-                  ]}
-                  buttonText="Unirse al Servidor"
-                  buttonLink="https://discord.com/invite/ZCYKH9djSE"
+                <Image
+                  src="/images/about/about-image.svg"
+                  alt="about-image"
+                  fill
+                  className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
+                />
+                <Image
+                  src="/images/about/about-image-dark.svg"
+                  alt="about-image"
+                  fill
+                  className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
                 />
               </div>
             </div>
