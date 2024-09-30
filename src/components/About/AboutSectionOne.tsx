@@ -39,13 +39,13 @@ const AboutSectionOne = () => {
                 <div className="mx-[-18px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
                     <List text="Comandos Personalizados" />
-                    <List text="Moderacioón" />
+                    <List text="Moderación" />
                     <List text="Gestión de Roles" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
                     <List text="Estadísticas Detalladas" />
-                    <List text="Rich documentation" />
+                    <List text="Documentación Completa" />
                     <List text="Personalización Completa" />
                   </div>
                 </div>
