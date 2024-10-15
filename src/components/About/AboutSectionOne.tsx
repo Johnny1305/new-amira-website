@@ -55,7 +55,7 @@ const AboutSectionOne = () => {
             <div className="w-full px-4 lg:w-1/2">
               <div className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0">
                 <ProfileCard
-                  avatar="/images/discord/avatar.jpeg"
+                  avatar="/images/discord/amira_sinfondo.png"
                   banner="/images/discord/banner.jpeg"
                   username="🌸 Amira 🌸"
                   tag="3857"
